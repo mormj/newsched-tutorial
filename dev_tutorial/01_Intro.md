@@ -24,8 +24,8 @@ Newsched is the attempt to create an SDR framework that is simple, yet flexible,
 - [ST Scheduler with Domain Adapters](15_STSchedWithDA)
 - [Multi-Threaded Scheduler](16_MTScheduler)
 - [CUDA Custom Buffers](17_CudaCustomBuffers)
+- [Benchmarking](18_Benchmarking)
 - ... TODO
 - More Blocks
-- Benchmarking
 - Block Parameters and Callbacks
 - Optimization
