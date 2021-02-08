@@ -5,7 +5,9 @@ you have an nVidia GPU) makes for convenient way to show zero-copy in and out of
 
 ## Installation Caveats
 
-Normally, at least with Ubuntu, you can install CUDA drivers and the CUDA toolkit using `apt-get`.  Unfortunately, I have been unable to get meson build to recognize all the required modules with the drivers installed in this method. (There is probably an easier way to get this working, but ...) On Ubuntu 20.04, in order to get CUDA installed locally on my machine, I had to:
+If the CUDA drivers and toolkit have been installed using `apt-get`, meson needs a bit of help to find the modules.  When calling `meson setup ...`, set the `CUDA_ROOT` environment variable to `\usr`, e.g. `CUDA_ROOT=\usr meson setup ...`
+
+If you want the latest CUDA toolkit, and install it from tar files, there is probably an easier way to get this working, but ... on Ubuntu 20.04, in order to get CUDA installed locally on my machine, I had to:
 
 1. Download the CUDA `runfile` installer [here](https://developer.nvidia.com/cuda-11.0-update1-download-archive)
 1. Uninstall all nvidia-* packages using `apt remove`
