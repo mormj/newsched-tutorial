@@ -1,3 +1,3 @@
-# newsched
+# Documentation for newsched has moved to 
 
-[Developer Tutorial](dev_tutorial/01_Intro)
+[https://mormj.github.io/newsched](https://mormj.github.io/newsched)
