@@ -1,3 +1,8 @@
+# Documentation for newsched has moved to 
+
+[https://mormj.github.io/newsched](https://mormj.github.io/newsched)
+
+
 # Newsched
 
 In order to get more developers involved in the newsched project, which is aimed to be the GR 4.0 runtime and a sandbox to work out new ideas related revamping GNU Radio for enhanced modularity and native support of heterogenous and distributed platforms, we present a tutorial of the components of newsched.
